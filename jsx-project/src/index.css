@@ -1,0 +1,30 @@
+body {
+  
+  background-color: rgb(0, 102, 102);
+  background-image: url(https://i.pinimg.com/564x/9b/dc/72/9bdc7277dba56294661bfec48b3bc1ba.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  
+}
+.App{
+  margin: 5px;
+  padding: 3px;
+  
+}
+.imageClass{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 30px;
+}
+img{
+  width: 400px;
+  height: 500px;
+  border-radius: 15px;
+}
+video{
+  margin: 40px;
+  margin-left: 600px;
+  border: solid black 3px;
+}
